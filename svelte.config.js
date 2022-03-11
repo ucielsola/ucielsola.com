@@ -1,4 +1,5 @@
-import adapter from '@sveltejs/adapter-auto';
+// import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static'; // for cloudflare
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
